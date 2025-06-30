@@ -14,7 +14,7 @@ export default function HeroLandingClean() {
   return (
     <>
       <section className="w-full h-screen bg-white flex items-center">
-        <div className="container mx-auto px-6 md:px-16 lg:px-24 grid grid-cols-1 md:grid-cols-2 items-center gap-12">
+        <div className="container mx-auto px-6 md:px-16 lg:px-24 grid grid-cols-1 md:grid-cols-2 items-center gap-12 mt-44 md:mt-0">
           {/* Left Content */}
           <div data-aos="fade-right">
             <h1 className="text-4xl md:text-5xl font-bold text-green-800 leading-snug mb-6">

@@ -15,7 +15,7 @@ const team = [
   {
     name: 'Irshad Maazank',
     role: 'CEO, Co-Founder & Head of Marketing',
-    image: 'https://creator.nightcafe.studio/jobs/JSVHHSpD0EYcHdlXfoGS/JSVHHSpD0EYcHdlXfoGS--3--1wbsg_2x.jpg',
+    image: '/irshad.png',
   },
   {
     name: 'Muhammed Siyad',
