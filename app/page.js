@@ -7,6 +7,7 @@ import AboutSection from './Components/About'
 import ServicesSection from './Components/Services'
 import HeroLanding from './Components/Landing'
 import Footer from './Components/Footer'
+import ProductGrid from './Components/ProductGrid'
 
 function page() {
   return (
@@ -14,9 +15,11 @@ function page() {
     <Navbar/>
     <HeroLanding/>
     <Carostop/>
+    <ProductGrid/>
+    <ServicesSection/>
     <OurTeam/>
     <AboutSection/>
-    <ServicesSection/>
+   
     <Footer/>
     
     </>

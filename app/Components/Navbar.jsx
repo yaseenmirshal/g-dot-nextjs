@@ -13,7 +13,7 @@ export default function Navbar() {
        <img
           src="/logos/FACEBOOK VOER G-DOT.png"
           alt="Logo"
-          className="h-20 w-auto m-1"
+          className="h-20 md:w-auto m-1 "
         />
 
         {/* Mobile Menu Toggle + Get in Touch for Mobile */}

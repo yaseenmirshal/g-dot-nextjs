@@ -12,22 +12,22 @@ import {
 
 const services = [
   {
-    title: 'Web Development',
+    title: 'NON-Woven Bags',
     description: 'Crafting fast, responsive, and dynamic websites tailored to your business goals.',
     icon: <Code size={32} className="text-green-600" />,
   },
   {
-    title: 'UI/UX Design',
+    title: 'Strow',
     description: 'Designing intuitive, user-friendly interfaces that offer the best user experiences.',
     icon: <Brush size={32} className="text-green-600" />,
   },
   {
-    title: 'Mobile Optimization',
+    title: 'Paper Glass',
     description: 'Ensuring your site looks and performs perfectly across all mobile devices.',
     icon: <Smartphone size={32} className="text-green-600" />,
   },
   {
-    title: 'Startup Launch',
+    title: 'E-commerce Packaging',
     description: 'From brand to build — we help startups launch with impact and speed.',
     icon: <Rocket size={32} className="text-green-600" />,
   },
