@@ -22,7 +22,7 @@ export default function AboutSection() {
         </div>
 
         {/* Text Section */}
-        <div data-aos="fade-left">
+        <div data-aos="fade-right">
           <h2 className="text-3xl sm:text-4xl font-bold text-green-700 mb-6">
             About Us
           </h2>
