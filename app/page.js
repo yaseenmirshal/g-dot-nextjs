@@ -8,6 +8,7 @@ import ServicesSection from './Components/Services'
 import HeroLanding from './Components/Landing'
 import Footer from './Components/Footer'
 import ProductGrid from './Components/ProductGrid'
+import GiftSection from './Components/GiftSection'
 
 function page() {
   return (
@@ -16,7 +17,8 @@ function page() {
     <HeroLanding/>
     <Carostop/>
     <ProductGrid/>
-    <ServicesSection/>
+    <GiftSection/>
+    {/* <ServicesSection/> */}
     <OurTeam/>
     <AboutSection/>
    

@@ -42,16 +42,16 @@ const Carostop = () => {
     },
     {
       id: 7,
-      name: 'TISSUE PAPER',
+      name: 'JUTE BAGS',
       image:
-        'https://i.pinimg.com/736x/ff/df/db/ffdfdb7830ea6f301c2bfa667050a2e8.jpg',
+        'https://i.pinimg.com/736x/31/74/d5/3174d58bcf29d72fc001399fd5d59ee0.jpg',
     },
+  
     {
-      id: 8,
-      name: 'Need Custom Packaging?',
+      id: 9,
+      name: 'COURIER BAGS',
       image:
-        'https://i.pinimg.com/736x/99/54/28/995428cd64ab6450f0119065f8231c03.jpg',
-      contactCard: true,
+        'https://i.pinimg.com/736x/1a/28/1a/1a281af7f0dc8c5233d8fc426269c038.jpg',
     },
   ]
 

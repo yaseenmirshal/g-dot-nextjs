@@ -8,22 +8,22 @@ import { FaWhatsapp } from 'react-icons/fa'
 
 const team = [
   {
-    name: 'Mr. Abbas PP',
+    name: 'ABBAS',
     role: 'Founder, Chairman & Mentor',
-    image: 'https://img.freepik.com/premium-photo/ai-human-avatar-characters-male-model_1166271-38.jpg',
+    image: '/abbas hd.png',
   },
   {
-    name: 'Irshad Maazank',
+    name: 'IRSHAD MAAZANK',
     role: 'CEO, Co-Founder & Head of Marketing',
     image: '/irshad.png',
   },
   {
-    name: 'Muhammed Siyad',
+    name: 'MUHAMMED SIYAD',
     role: 'COO, Co-Founder & Head of Procurement',
-    image: 'https://i.pinimg.com/474x/c0/f5/68/c0f56821adb79540e706645256280b3a.jpg',
+    image: '/siyad k.png',
   },
   {
-    name: 'Muhammed Badsha',
+    name: 'MUHAMMED BADSHA',
     role: 'CCO, Co-Founder & Head of Sales',
     image: 'https://i.pinimg.com/236x/29/c5/5f/29c55f43f235f3addc8e606650eab551.jpg',
   },
@@ -77,8 +77,8 @@ export default function TeamSection() {
             </div>
             {/* Name & Role */}
             <div className="bg-white text-center py-4">
-              <h4 className="text-sm font-semibold text-black">{member.name}</h4>
-              <p className="text-sm text-green-600 mt-1">{member.role}</p>
+              <h4 className="text-lg font-semibold text-black">{member.name}</h4>
+              <p className="text-sm font-bold text-green-600 mt-1">{member.role}</p>
             </div>
           </div>
         ))}
