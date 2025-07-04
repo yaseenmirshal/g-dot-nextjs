@@ -38,15 +38,17 @@ export default function GiftSection() {
   }, [])
 
   return (
-    <section className="py-16 px-56 bg-white">
+    <section className="py-16 px-4 sm:px-6 md:px-10 lg:px-20 xl:px-28 bg-white">
       <div className="max-w-7xl mx-auto text-center mb-12">
-        <h2 className="text-4xl font-bold text-green-800 mb-4">Elegant Gift Collection</h2>
-        <p className="text-gray-600 text-lg">
+        <h2 className="text-3xl sm:text-4xl font-bold text-green-800 mb-4">
+          Elegant Gift Collection
+        </h2>
+        <p className="text-gray-600 text-base sm:text-lg">
           Discover our curated selection of corporate and customized gifts — crafted to impress.
         </p>
       </div>
 
-      <div className="grid gap-12 md:grid-cols-2 lg:grid-cols-2">
+      <div className="grid gap-8 sm:grid-cols-2 lg:grid-cols-2">
         {gifts.map((gift, index) => (
           <div
             key={index}
@@ -54,20 +56,21 @@ export default function GiftSection() {
             data-aos-delay={index * 100}
             className="bg-white border border-green-100 rounded-2xl shadow-md hover:shadow-lg transition-all duration-300"
           >
-            <div className="relative h-80 w-full rounded-t-2xl overflow-hidden">
+            <div className="relative w-full h-64 sm:h-72 md:h-80 lg:h-80 rounded-t-2xl overflow-hidden">
               <Image
                 src={gift.image}
                 alt={gift.title}
-                layout="fill"
-                objectFit="cover"
+                fill
+                className="object-cover"
+                sizes="(max-width: 768px) 100vw, 50vw"
               />
             </div>
-            <div className="p-6">
+            <div className="p-4 sm:p-6">
               <span className="inline-block text-xs uppercase text-green-600 font-semibold mb-2">
                 {gift.category}
               </span>
-              <h3 className="text-xl font-semibold text-green-900 mb-2">{gift.title}</h3>
-              <p className="text-gray-600 text-sm">{gift.description}</p>
+              <h3 className="text-lg sm:text-xl font-semibold text-green-900 mb-2">{gift.title}</h3>
+              <p className="text-gray-600 text-sm sm:text-base">{gift.description}</p>
             </div>
           </div>
         ))}

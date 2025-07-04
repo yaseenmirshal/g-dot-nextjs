@@ -25,7 +25,7 @@ const team = [
   {
     name: 'MUHAMMED BADSHA',
     role: 'CCO, Co-Founder & Head of Sales',
-    image: 'https://i.pinimg.com/236x/29/c5/5f/29c55f43f235f3addc8e606650eab551.jpg',
+    image: 'https://cdn.pixabay.com/photo/2022/06/05/07/04/person-7243410_1280.png',
   },
 ]
 
@@ -35,7 +35,7 @@ export default function TeamSection() {
   }, [])
 
   return (
-    <section className="py-20 bg-white">
+    <section id='ourteam' className="py-20 bg-white">
       <div className="text-center mb-12" data-aos="fade-up">
         <h2 className="text-3xl font-bold text-gray-800">
           Meet <span className="text-green-600">Our Team</span>

@@ -13,10 +13,10 @@ export default function HeroLandingClean() {
 
   return (
     <>
-      <section className="w-full h-screen bg-white flex items-center">
+      <section className="w-full h-screen bg-white flex items-center pt-44 md:pt-0">
         <div className="container mx-auto px-6 md:px-16 lg:px-24 grid grid-cols-1 md:grid-cols-2 items-center gap-12 mt-44 md:mt-0">
           {/* Left Content */}
-          <div data-aos="fade-right">
+          <div data-aos="fade-top">
             <h1 className="text-4xl md:text-5xl font-bold text-green-800 leading-snug mb-6">
               Eco-Friendly Non-Woven Bags for Your Brand
             </h1>
@@ -24,8 +24,8 @@ export default function HeroLandingClean() {
               Reusable, customizable, and sustainable – perfect for promotions, packaging, and daily use.
             </p>
             <div className="flex gap-4">
-              <button className="bg-green-600 text-white px-6 py-3 rounded-full hover:bg-green-700 transition">
-                Inquiry Now
+              <button className="bg-green-600 text-white px-3 md:px-6 py-3 rounded-full hover:bg-green-700 transition">
+                Order Now
               </button>
               <button className="border border-green-600 text-green-700 px-6 py-3 rounded-full hover:bg-green-100 transition">
                 View Products
@@ -34,7 +34,7 @@ export default function HeroLandingClean() {
           </div>
 
           {/* Right Illustration */}
-          <div className="flex justify-center" data-aos="fade-left">
+          <div className="flex justify-center" data-aos="fade-right">
             <div className="relative w-full max-w-md">
               <img
                 src="https://5.imimg.com/data5/BY/UG/MY-4035107/non-woven-carry-bag.jpg"
@@ -51,7 +51,7 @@ export default function HeroLandingClean() {
 
       {/* Floating WhatsApp Icon */}
       <a
-        href="https://wa.me/919000000000" // <-- Replace with your WhatsApp number
+        href="https://wa.me/919946260777" 
         target="_blank"
         rel="noopener noreferrer"
         className="fixed bottom-6 right-6 bg-green-500 hover:bg-green-600 text-white p-4 rounded-full shadow-lg z-50 transition"

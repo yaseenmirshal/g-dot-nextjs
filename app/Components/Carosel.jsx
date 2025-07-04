@@ -6,25 +6,25 @@ const Carostop = () => {
   const bags = [
     {
       id: 1,
-      name: 'U-Cut Eco Bag',
+      name: 'U-Cut',
       image:
         'https://i.pinimg.com/736x/31/21/6e/31216e0365b695ba51ca8ac895fdded8.jpg',
     },
     {
       id: 2,
-      name: 'W CUT Eco Bag',
+      name: 'W CUT',
       image:
         'https://image.made-in-china.com/2f0j00AMPhBkdnpogc/Low-Price-Wholesale-Custom-Logo-Eco-Friendly-W-Cut-Non-Woven-Vest-Bag.webp',
     },
     {
       id: 3,
-      name: 'D CUT Eco Bag',
+      name: 'D CUT',
       image:
         'https://cpimg.tistatic.com/08235748/b/4/extra-08235748.jpg',
     },
     {
       id: 4,
-      name: 'LOOP HANDLE Eco Bag',
+      name: 'LOOP HANDLE',
       image:
         'https://i.pinimg.com/736x/92/01/5f/92015f4b3999d1a4f6c6b9bde6e4642e.jpg',
     },
@@ -56,13 +56,13 @@ const Carostop = () => {
   ]
 
   return (
-    <div className="w-full bg-white py-16">
+    <div id='materials' className="w-full bg-white py-16 pt-72 md:pt-0">
       <div className="container mx-auto px-4">
         <h2 className="text-3xl font-bold text-center text-green-700 mb-12">
           Our Non-Woven Bag Collection
         </h2>
 
-        <div className="grid gap-8 grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 justify-items-center">
+        <div className="grid gap-2.5 md:gap-8 grid-cols-2 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 justify-items-center">
           {bags.map((bag) => (
             <div
               key={bag.id}
@@ -76,12 +76,12 @@ const Carostop = () => {
                 />
               </div>
               <div className="p-5 text-center">
-                <h3 className="text-lg font-semibold text-green-800 mb-3">
+                <h3 className="text-md md:text-lg font-semibold text-green-800 mb-3">
                   {bag.name}
                 </h3>
                 <a
                   href="#contact"
-                  className={`inline-block px-5 py-2 rounded-full transition font-medium ${
+                  className={`inline-block px-2 py-1 md:px-5 md:py-2 rounded-full transition font-medium ${
                     bag.contactCard
                       ? 'bg-white text-green-700 border border-green-700 hover:bg-green-100'
                       : 'bg-green-600 text-white hover:bg-green-700'

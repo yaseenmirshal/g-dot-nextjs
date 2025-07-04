@@ -22,7 +22,7 @@ export default function ProductGrid() {
   }, [])
 
   return (
-    <section className="py-20 bg-white">
+    <section id='services' className="py-20 bg-white">
       <div className="text-center mb-12" data-aos="fade-up">
         <h2 className="text-3xl font-bold text-gray-800">
           Our <span className="text-green-600">Services</span>

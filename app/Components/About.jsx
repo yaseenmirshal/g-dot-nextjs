@@ -10,7 +10,7 @@ export default function AboutSection() {
   }, [])
 
   return (
-    <section className="bg-white py-20 px-6 sm:px-12 lg:px-24">
+    <section id='aboutus' className="bg-white py-20 px-6 sm:px-12 lg:px-24">
       <div className="max-w-7xl mx-auto grid grid-cols-1 md:grid-cols-2 items-center gap-12">
         {/* Image Section */}
         <div data-aos="fade-right">
