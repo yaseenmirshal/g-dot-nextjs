@@ -8,7 +8,7 @@ const Carostop = () => {
       id: 1,
       name: 'U-Cut',
       image:
-        'https://i.pinimg.com/736x/31/21/6e/31216e0365b695ba51ca8ac895fdded8.jpg',
+        'https://5.imimg.com/data5/YH/UT/MY-27286833/u-cut-non-woven-carry-bags.jpg',
     },
     {
       id: 2,
@@ -26,13 +26,13 @@ const Carostop = () => {
       id: 4,
       name: 'LOOP HANDLE',
       image:
-        'https://i.pinimg.com/736x/92/01/5f/92015f4b3999d1a4f6c6b9bde6e4642e.jpg',
+        'https://images.jdmagicbox.com/quickquotes/images_main/non-woven-loop-handle-bag-2017992147-cmw8srzj.jpg',
     },
     {
       id: 5,
       name: 'PAPER BAGS',
       image:
-        'https://i.pinimg.com/736x/e0/88/09/e08809d381afd299f10513c38e74df3b.jpg',
+        'https://m.media-amazon.com/images/I/51hOggPuPBL.jpg',
     },
     {
       id: 6,
@@ -51,7 +51,7 @@ const Carostop = () => {
       id: 9,
       name: 'COURIER BAGS',
       image:
-        'https://i.pinimg.com/736x/1a/28/1a/1a281af7f0dc8c5233d8fc426269c038.jpg',
+        'https://www.packingsupply.in/web/templates/images/products/1521958618-customised-courier-packaging-bags.jpg',
     },
   ]
 

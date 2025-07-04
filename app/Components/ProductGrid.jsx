@@ -6,10 +6,10 @@ import 'aos/dist/aos.css'
 import { ShoppingBag } from 'lucide-react'
 
 const products = [
-  { name: 'Non-Woven Bags', image: '/nonwovenbag.png' },
-  { name: 'Paper Strow', image: 'https://i.pinimg.com/736x/78/1b/d3/781bd31cb62ec0e1ac8f692de15424ae.jpg' },
-  { name: 'Tissue Paper', image: 'https://i.pinimg.com/736x/7f/42/35/7f4235f58233a144d5a8356b2d9babe8.jpg' },
-  { name: 'Paper Glass', image: 'https://i.pinimg.com/736x/5d/d9/58/5dd9586a865a6c3a7998e25d8c25be04.jpg' },
+  { name: 'Non-Woven Bags', image: '/nonwoven.png' },
+  { name: 'Paper Strow', image: 'https://daromas.in/cdn/shop/files/51roJ2R6CoL._SX679_2c65aacb-5f28-4756-8180-053cec5a81c9.jpg?v=1723121882&width=1946' },
+  { name: 'Tissue Paper', image: 'https://lh3.googleusercontent.com/proxy/BdYZy8TOr5Do4wWtUinjqC6juWLsgMM_GNKreyJ0l35E6_9asznSAopxZZwWzEoRgNdGXuGg5M1SknE2a6p-gSpays0IreR8hC1fJVwpXaB4UyeYPhjWStGHh7pjulWzorc' },
+  { name: 'Paper Glass', image: 'https://daromas.in/cdn/shop/files/WHITE_DISPOSABLE.jpg?v=1732604935' },
   { name: 'Food Container', image: 'https://biopackagingsolution.com/wp-content/uploads/2016/03/71p6plbu0L._SL1500_.jpg' },
   { name: 'Paper Plate', image: 'https://m.media-amazon.com/images/I/71yJ7yw9lHS._UF1000,1000_QL80_.jpg' },
   
