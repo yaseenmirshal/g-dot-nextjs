@@ -10,7 +10,7 @@ const products = [
   { name: 'Paper Strow', image: 'https://i.pinimg.com/736x/78/1b/d3/781bd31cb62ec0e1ac8f692de15424ae.jpg' },
   { name: 'Tissue Paper', image: 'https://i.pinimg.com/736x/7f/42/35/7f4235f58233a144d5a8356b2d9babe8.jpg' },
   { name: 'Paper Glass', image: 'https://i.pinimg.com/736x/5d/d9/58/5dd9586a865a6c3a7998e25d8c25be04.jpg' },
-  { name: 'Food Container', image: 'https://i.pinimg.com/736x/ed/3d/b4/ed3db4b54a7b0468bcdca67634d909e8.jpg' },
+  { name: 'Food Container', image: 'https://biopackagingsolution.com/wp-content/uploads/2016/03/71p6plbu0L._SL1500_.jpg' },
   { name: 'Paper Plate', image: 'https://m.media-amazon.com/images/I/71yJ7yw9lHS._UF1000,1000_QL80_.jpg' },
   
  

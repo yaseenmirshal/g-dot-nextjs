@@ -51,7 +51,7 @@ export default function TeamSection() {
             data-aos="fade-up"
             data-aos-delay={idx * 100}
           >
-            <div className="relative w-full h-[230px] overflow-hidden">
+            <div className="relative w-full h-[270px] overflow-hidden">
               <img
                 src={member.image}
                 alt={member.name}

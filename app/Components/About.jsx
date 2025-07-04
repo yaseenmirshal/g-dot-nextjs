@@ -27,12 +27,11 @@ export default function AboutSection() {
             About Us
           </h2>
           <p className="text-gray-700 text-base sm:text-lg leading-relaxed mb-4">
-            At <span className="text-green-700 font-semibold">Your Company</span>, we blend creativity, strategy, and innovation to deliver
-            impactful digital solutions. We believe in clean aesthetics and meaningful functionality that connects with real people.
-          </p>
-          <p className="text-gray-700 text-base sm:text-lg leading-relaxed">
-            From design to deployment, our mission is to create exceptional digital experiences that reflect the values and vision of every client we work with.
-          </p>
+  At <span className="text-green-700 font-semibold">G DOT INTERNATIONAL</span>, we are dedicated to producing sustainable and eco-friendly alternatives such as non-woven bags, paper glasses, plates, and more. Our innovative approach combines functionality with responsibility, aiming to reduce plastic waste and promote a greener planet.
+</p>
+<p className="text-gray-700 text-base sm:text-lg leading-relaxed">
+  Our mission is to deliver high-quality, biodegradable products that support both our clients’ needs and the well-being of the Earth. With every product we create, we take a step forward in protecting the environment for future generations.
+</p>
         </div>
       </div>
     </section>

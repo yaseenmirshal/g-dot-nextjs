@@ -24,12 +24,21 @@ export default function HeroLandingClean() {
               Reusable, customizable, and sustainable – perfect for promotions, packaging, and daily use.
             </p>
             <div className="flex gap-4">
+              <a
+  href="https://wa.me/919946260777" // replace with your actual number
+  target="_blank"
+  rel="noopener noreferrer"
+>
               <button className="bg-green-600 text-white px-3 md:px-6 py-3 rounded-full hover:bg-green-700 transition">
                 Order Now
               </button>
-              <button className="border border-green-600 text-green-700 px-6 py-3 rounded-full hover:bg-green-100 transition">
-                View Products
-              </button>
+              </a>
+             <a
+  href="#materials"
+  className="border border-green-600 text-green-700 px-6 py-3 rounded-full hover:bg-green-100 transition inline-block"
+>
+  View Products
+</a>
             </div>
           </div>
 
